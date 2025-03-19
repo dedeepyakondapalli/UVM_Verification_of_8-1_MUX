@@ -1,5 +1,4 @@
 module mux (input [7:0] in, input [2:0] sel, output reg out);
-
    always @(*)
    begin
 	   case(sel)
